@@ -1,0 +1,5 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values/cmake-build-debug/CMakeFiles/input.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values/cmake-build-debug/CMakeFiles/input_and_type.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values/cmake-build-debug/CMakeFiles/input_and_type_oop.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "input_and_type_oop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-input-Debug-f39fe648ce4003d27e06.json",
+					"name" : "input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "input_and_type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-input_and_type-Debug-9dfb4cac3a6c791dcb98.json",
+					"name" : "input_and_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "input_and_type_oop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-input_and_type_oop-Debug-296b0314dc2ed089b81d.json",
+					"name" : "input_and_type_oop",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values/cmake-build-debug",
+		"source" : "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/02 Object, Types and Values"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

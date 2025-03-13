@@ -1,0 +1,4 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/Calculator/cmake-build-debug/CMakeFiles/calculator00.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/Calculator/cmake-build-debug/CMakeFiles/calculator01.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

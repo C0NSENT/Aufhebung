@@ -1,0 +1,3 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/cmake-build-debug/CMakeFiles/first_attempt.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/05 Writing a Program/cmake-build-debug/CMakeFiles/rebuild_cache.dir

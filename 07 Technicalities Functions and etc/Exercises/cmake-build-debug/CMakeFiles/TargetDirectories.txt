@@ -1,0 +1,7 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_02.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/exersice_07.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_09.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_12.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_13.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir

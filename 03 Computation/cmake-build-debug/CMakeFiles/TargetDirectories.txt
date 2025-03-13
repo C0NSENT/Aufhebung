@@ -1,0 +1,5 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation/cmake-build-debug/CMakeFiles/drill.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation/cmake-build-debug/CMakeFiles/drill_7.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation/cmake-build-debug/CMakeFiles/if_statements.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "exercise_13",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise_02-Debug-f184ec2c36bd7a4f88bf.json",
+					"name" : "exercise_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise_09::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise_09-Debug-deacba60a26534a98d36.json",
+					"name" : "exercise_09",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise_12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise_12-Debug-ebc5fdf2c29d47e3eea0.json",
+					"name" : "exercise_12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise_13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise_13-Debug-c8f15ab9bb75ba9bc1d2.json",
+					"name" : "exercise_13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_07-Debug-202cdbd9da32ea8953b9.json",
+					"name" : "exersice_07",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises/cmake-build-debug",
+		"source" : "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/07 Technicalities Functions and etc/Exercises"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,5 @@
+# ninja log v6
+2	207	7635866939081655	build.ninja	a4b536eed8c6c01f
+6	567	7635560164660592	CMakeFiles/date.dir/date.cpp.obj	687244fdfcc655a2
+567	645	7635560170281115	date.exe	436a69afed29487c
+8	573	7634970874093202	CMakeFiles/date.dir/month.cpp.obj	8756e782e1853da

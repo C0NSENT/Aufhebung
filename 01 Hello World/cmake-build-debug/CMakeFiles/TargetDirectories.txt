@@ -1,0 +1,3 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/01 Hello World/cmake-build-debug/CMakeFiles/deluxe_edition.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/01 Hello World/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/01 Hello World/cmake-build-debug/CMakeFiles/rebuild_cache.dir

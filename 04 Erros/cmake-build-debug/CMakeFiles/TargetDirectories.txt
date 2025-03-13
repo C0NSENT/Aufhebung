@@ -1,0 +1,4 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/04 Erros/cmake-build-debug/CMakeFiles/drill_04.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/04 Erros/cmake-build-debug/CMakeFiles/range_errors.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/04 Erros/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/04 Erros/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "if_statements",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drill::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drill-Debug-00330a4b1889ac7ad1d9.json",
+					"name" : "drill",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drill_7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drill_7-Debug-0912d30175252d15178b.json",
+					"name" : "drill_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "if_statements::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-if_statements-Debug-4bfc508e2f9d9a8f34df.json",
+					"name" : "if_statements",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation/cmake-build-debug",
+		"source" : "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/03 Computation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
