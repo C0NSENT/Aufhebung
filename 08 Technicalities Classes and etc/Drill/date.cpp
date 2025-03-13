@@ -7,7 +7,7 @@
 
 //===========================ОПЕРАТОРЫ================================
 
-month date::operator++(month &m)
+month date::operator++(month& m)
 {
 	m = (m==month::dec) ? month::jan : month{to_int(m)+1};
 	return m;
@@ -22,6 +22,16 @@ std::ostream& operator<<(std::ostream &os, const month &obj)
 									"october", "november", "december"};
 
 	return os << arr_str_months.at(static_cast<int>(obj));
+}
+
+date& date::operator++(date &obj, int)
+{
+	if (obj.d==days_in_month(obj.m,obj.y))
+	{
+		obj.d = 1;
+	}
+
+	return obj;
 }
 
 

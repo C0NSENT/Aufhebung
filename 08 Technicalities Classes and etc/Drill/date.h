@@ -72,12 +72,13 @@ public:
 
 	//===========================ОПЕРАТОРЫ================================
 
-	friend month operator++(month& m);
+	month operator++(month& m );
 
 	friend std::ostream& operator<<(std::ostream& os, const month& obj);
 
 
 
+	date& operator++(date& obj, int);
 
 	date& operator=(const date& obj);
 
