@@ -19,7 +19,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="month_operator_overloading" targetName="month_operator_overloading" />
+      <config projectName="date" targetName="date" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -28,21 +28,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1235377-d8f2-4f76-9e7c-45cd93c61da8" name="Changes" comment="Учусь как какать">
+    <list default="true" id="e1235377-d8f2-4f76-9e7c-45cd93c61da8" name="Changes" comment="Обновление файлов">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-13T16-31-33-0925.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/CMakeFiles/date.dir/date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/CMakeFiles/date.dir/date.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/date.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/cmake-build-debug/date.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-43c085cf252d09c44572.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-11T16-57-43-0080.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/month_operator_overloading.dir/month_operator_overloading.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/month_operator_overloading.dir/month_operator_overloading.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/month_operator_overloading.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/cmake-build-debug/month_operator_overloading.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +83,9 @@
     <setting file="file://$PROJECT_DIR$/07 Technicalities Functions and etc/Exercises/exercise_09.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/07 Technicalities Functions and etc/Exercises/exercise_12.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/07 Technicalities Functions and etc/Exercises/exercise_13.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/month.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/date.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Drill/month.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Try This/month_operator_overloading.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectApplicationVersion">
@@ -146,7 +144,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="month_operator_overloading" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="month_operator_overloading" TARGET_NAME="month_operator_overloading" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="month_operator_overloading" RUN_TARGET_NAME="month_operator_overloading">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="date" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="date" TARGET_NAME="date" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="date" RUN_TARGET_NAME="date">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -185,7 +188,8 @@
       <workItem from="1741884061218" duration="137000" />
       <workItem from="1741884220801" duration="640000" />
       <workItem from="1741884913040" duration="3136000" />
-      <workItem from="1741896906610" duration="2000" />
+      <workItem from="1741896906610" duration="162000" />
+      <workItem from="1741940888792" duration="4297000" />
     </task>
     <task id="LOCAL-00001" summary="ывафывфывафваы вфыяк АС">
       <option name="closed" value="true" />
@@ -203,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741884999513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1741896947780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741896947780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +240,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ывафывфывафваы вфыяк АС" />
     <MESSAGE value="Учусь как какать" />
-    <option name="LAST_COMMIT_MESSAGE" value="Учусь как какать" />
+    <MESSAGE value="Обновление файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление файлов" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -7,9 +7,9 @@
 
 //===========================ОПЕРАТОРЫ================================
 
-month date::operator++(month& m)
+month operator++(month& m)
 {
-	m = (m==month::dec) ? month::jan : month{to_int(m)+1};
+	m = (m==month::dec) ? month::jan : month{static_cast<int>(m)+1};
 	return m;
 }
 
@@ -24,15 +24,8 @@ std::ostream& operator<<(std::ostream &os, const month &obj)
 	return os << arr_str_months.at(static_cast<int>(obj));
 }
 
-date& date::operator++(date &obj, int)
-{
-	if (obj.d==days_in_month(obj.m,obj.y))
-	{
-		obj.d = 1;
-	}
 
-	return obj;
-}
+
 
 
 date& date::operator=(const date& obj)
@@ -56,11 +49,21 @@ bool date::is_valid(const int& y, const month& m, const int& d)
 
 	if (d >  days_in_month(m, y)) return false;
 
+	if (y < 0) return false;
+
 	return true;
 }
 
 bool date::is_leap(const int &y) {
 		return (y % 400 == 0 || (y % 100 != 0 && y % 4 == 0));
+}
+
+month date::to_month(const int& num)
+{
+	if (num < 1 || num > 12)
+		throw std::invalid_argument("Ты чо шизоид? В году 12 месяцев");
+
+	return month{num};
 }
 
 int date::days_in_year(const int& y)
@@ -85,8 +88,58 @@ int date::days_in_month(const month &m, const int& y)
 
 date date::str_to_date(const std::string &str_date)
 {
+	std::array<std::string, 3> v_str_separated;
 
+	try
+	{
+		int it = 0;
+		for (int i = 0; i < str_date.size(); i++)
+		{
+			if (!isdigit(str_date.at(i))) {
+				it++;
+				i++;
+			}
+			v_str_separated.at(it).push_back(str_date.at(i));
+		}
+	}
+	catch (std::out_of_range e)
+	{
+		throw std::out_of_range(e.what());
+	}
+
+	std::array<int, 3> v_str_to_int;
+
+	for (std::string s : v_str_separated) {
+		std::cout<< s << "\n";
+	}
+
+	for (int i = 0; i < v_str_separated.size(); i++)
+	{
+			v_str_to_int.at(i) = std::stoi(v_str_separated.at(i));
+	}
+
+	date obj{v_str_to_int.at(0),
+		to_month(v_str_to_int.at(1)),
+		v_str_to_int.at(2)};
+
+	return obj;
 }
+
+/*bool date::is_str_valid(const std::array<std::string, 3>& str_date)
+{
+	bool is_year_valid = true;
+
+
+}*/
+
+/*bool date::is_arr_date_valid(const std::array<int, 3> &arr_date)
+{
+	int y_counter = 0;
+	int m_counter = 0;
+	int d_counter = 0;
+
+
+}*/
 
 
 int date::date_to_days(const date &date)
@@ -140,6 +193,8 @@ date date::days_to_date(int days, const int &base_year)
 //===========================КОНСТРУКТОРЫ================================
 
 date::date():date(1600, month::jan, 1){}
+
+date::date(const std::string& s):date(str_to_date(s)){}
 
 date::date(const int &y, const month &m, const int &d)
 {
@@ -204,10 +259,13 @@ void date::add_year(const int &y)
 
 int main()
 {
-	date date1{2020, month::dec, 22};
+	date date1{2020, month::dec, 31};
 
-	date1.add_year(4);
+	/*date1.add_year(4);*/
+	date date2{"1957/10/23"};
 
+	date1++;
 	std::cout << date1 << "\n";
+	std::cout << date2 << "\n";
 }
 
