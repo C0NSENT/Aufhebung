@@ -82,11 +82,7 @@ public:
 
 	//===========================ОПЕРАТОРЫ================================
 
-
-
 	friend std::ostream& operator<<(std::ostream& os, const month& obj);
-
-
 
 	date& operator++(int)
 	{

@@ -238,7 +238,7 @@ void date::add_month(const int& m)
 	}
 	this->m = month{m};*/
 
-	add_day(m);
+	//add_day(m);
 }
 
 void date::add_year(const int &y)
