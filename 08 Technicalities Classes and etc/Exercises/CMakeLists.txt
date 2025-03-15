@@ -6,7 +6,11 @@ project(exercise_02)
 add_executable(exercise_02 exercise_02.cpp)
 
 project(exercise_03)
-add_executable(execise_03 exercise_03.cpp)
+add_executable(exercise_03 exercise_03.cpp)
+target_compile_options(exercise_03 PRIVATE "-finput-charset=UTF-8" "-fexec-charset=UTF-8")
+
 
 project(exercise_05)
 add_executable(exercise_05 exercise_05.cpp)
+
+add_executable(test test.cpp)

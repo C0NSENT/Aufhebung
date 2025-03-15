@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: exercise_03
+# Project: exercise_05
 # Configurations: Debug
 # =============================================================================
 
@@ -74,37 +74,103 @@ build exercise_02.exe: CXX_EXECUTABLE_LINKER__exercise_02_Debug CMakeFiles/exerc
   TARGET_PDB = exercise_02.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target execise_03
+# Object build statements for EXECUTABLE target exercise_03
 
 
 #############################################
-# Order-only phony target for execise_03
+# Order-only phony target for exercise_03
 
-build cmake_object_order_depends_target_execise_03: phony || .
+build cmake_object_order_depends_target_exercise_03: phony || .
 
-build CMakeFiles/execise_03.dir/exercise_03.cpp.obj: CXX_COMPILER__execise_03_unscanned_Debug D$:/Open$ this$ folder$ only$ if$ you$ are$ listening$ Skinny$ Puppy$ rn/C++/Aufhebung/08$ Technicalities$ Classes$ and$ etc/Exercises/exercise_03.cpp || cmake_object_order_depends_target_execise_03
-  DEP_FILE = CMakeFiles\execise_03.dir\exercise_03.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\execise_03.dir
-  OBJECT_FILE_DIR = CMakeFiles\execise_03.dir
+build CMakeFiles/exercise_03.dir/exercise_03.cpp.obj: CXX_COMPILER__exercise_03_unscanned_Debug D$:/Open$ this$ folder$ only$ if$ you$ are$ listening$ Skinny$ Puppy$ rn/C++/Aufhebung/08$ Technicalities$ Classes$ and$ etc/Exercises/exercise_03.cpp || cmake_object_order_depends_target_exercise_03
+  DEP_FILE = CMakeFiles\exercise_03.dir\exercise_03.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -finput-charset=UTF-8 -fexec-charset=UTF-8
+  OBJECT_DIR = CMakeFiles\exercise_03.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise_03.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target execise_03
+# Link build statements for EXECUTABLE target exercise_03
 
 
 #############################################
-# Link the executable execise_03.exe
+# Link the executable exercise_03.exe
 
-build execise_03.exe: CXX_EXECUTABLE_LINKER__execise_03_Debug CMakeFiles/execise_03.dir/exercise_03.cpp.obj
+build exercise_03.exe: CXX_EXECUTABLE_LINKER__exercise_03_Debug CMakeFiles/exercise_03.dir/exercise_03.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\execise_03.dir
+  OBJECT_DIR = CMakeFiles\exercise_03.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = execise_03.exe
-  TARGET_IMPLIB = libexecise_03.dll.a
-  TARGET_PDB = execise_03.exe.dbg
+  TARGET_FILE = exercise_03.exe
+  TARGET_IMPLIB = libexercise_03.dll.a
+  TARGET_PDB = exercise_03.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_05
+
+
+#############################################
+# Order-only phony target for exercise_05
+
+build cmake_object_order_depends_target_exercise_05: phony || .
+
+build CMakeFiles/exercise_05.dir/exercise_05.cpp.obj: CXX_COMPILER__exercise_05_unscanned_Debug D$:/Open$ this$ folder$ only$ if$ you$ are$ listening$ Skinny$ Puppy$ rn/C++/Aufhebung/08$ Technicalities$ Classes$ and$ etc/Exercises/exercise_05.cpp || cmake_object_order_depends_target_exercise_05
+  DEP_FILE = CMakeFiles\exercise_05.dir\exercise_05.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercise_05.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise_05.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_05
+
+
+#############################################
+# Link the executable exercise_05.exe
+
+build exercise_05.exe: CXX_EXECUTABLE_LINKER__exercise_05_Debug CMakeFiles/exercise_05.dir/exercise_05.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exercise_05.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise_05.exe
+  TARGET_IMPLIB = libexercise_05.dll.a
+  TARGET_PDB = exercise_05.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || .
+
+build CMakeFiles/test.dir/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/Open$ this$ folder$ only$ if$ you$ are$ listening$ Skinny$ Puppy$ rn/C++/Aufhebung/08$ Technicalities$ Classes$ and$ etc/Exercises/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
 
 
 #############################################
@@ -132,9 +198,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build execise_03: phony execise_03.exe
-
 build exercise_02: phony exercise_02.exe
+
+build exercise_03: phony exercise_03.exe
+
+build exercise_05: phony exercise_05.exe
+
+build test: phony test.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +214,7 @@ build exercise_02: phony exercise_02.exe
 #############################################
 # Folder: D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug
 
-build all: phony exercise_02.exe execise_03.exe
+build all: phony exercise_02.exe exercise_03.exe exercise_05.exe test.exe
 
 # =============================================================================
 # Built-in targets

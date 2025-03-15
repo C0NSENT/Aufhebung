@@ -8,6 +8,10 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <ranges>
+#include <stdexcept>
+#include <clocale>
+#include<windows.h>
 
 class name_pairs
 {
@@ -17,9 +21,10 @@ class name_pairs
 
 	//======================ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ===========================
 
-	bool is_valid()
+	void is_valid () const
 	{
-		//не забудь реализовать
+		if (this->v_names.size() != this->v_ages.size())
+			throw std::logic_error("Ошибка: вектора разных размеров");
 	}
 
 	public:
@@ -27,9 +32,9 @@ class name_pairs
 
 	name_pairs& operator=(const name_pairs& obj) = default;
 
-	bool operator==(const name_pairs& obj) const
+	[[nodiscard]] bool operator==(const name_pairs& obj) const
 	{
-		return v_ages == obj.v_ages && v_names == obj.v_names;
+		return std::tie(v_names, v_ages) == std::tie(obj.v_names, obj.v_ages);
 	}
 
 	bool operator!=(const name_pairs& obj) const
@@ -49,12 +54,12 @@ class name_pairs
 	name_pairs() = default;
 
 	name_pairs(const std::vector<std::string>& v_names, const std::vector<double>& v_ages)
+	: v_names(v_names), v_ages(v_ages)
 	{
-		this->v_names = v_names;
-		this->v_ages = v_ages;
+		is_valid();
 	}
 
-	name_pairs(const name_pairs &obj) = default;
+	name_pairs(const name_pairs& obj) = default;
 
 	void read_names()
 	{
@@ -79,9 +84,9 @@ class name_pairs
 		double input_age;
 
 		for (const std::string& name : this->v_names) {
-			std::cout << "Введите имя человека по имени " <<name << " - ";
+			std::cout << "Введите имя человека по имени " << name << " - ";
 			std::cin >> input_age;
-			if (input_age < 0 || input_age < 150)
+			if (input_age > 0 && input_age < 150)
 				this->v_ages.push_back(input_age);
 			else
 				throw std::invalid_argument("Люди столько не живут...");
@@ -109,10 +114,21 @@ class name_pairs
 
 int main()
 {
+
 	name_pairs obj;
 
-	std::vector<std::string> v_names{"oleg", "stepan","gzegoz","sigma", "donbas", "oreshnik"};
+	std::vector<std::string> v_names{"олег", "stepan","gzegoz","sigma", "donbas", "oreshnik"};
 	std::vector<double> v_ages{1, 2, 3, 4, 5, 6};
+
+	std::string test;
+	std::cin >> test;
+
+	std::cout << "it works\n";
+	std::cout << test << " олег "<< '\n';
+
+	if (test == "олег") {
+
+	}
 
 	/*obj.read_names();
 	obj.read_ages();
@@ -120,7 +136,9 @@ int main()
 
 	name_pairs obj1{v_names, v_ages};
 
-	obj1.sort();
 
-	std::cout << obj1 << std::endl;
+
+	//std::cout << obj1 << std::endl;
+
+
 }
