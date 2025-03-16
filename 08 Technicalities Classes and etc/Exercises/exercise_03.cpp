@@ -21,20 +21,73 @@ class name_pairs
 
 	//======================ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ===========================
 
-	void is_valid () const
+	void is_valid() const
+	{
+		is_size_valid();
+		is_v_names_valid();
+		is_v_ages_valid();
+	}
+
+	void is_size_valid () const
 	{
 		if (this->v_names.size() != this->v_ages.size())
 			throw std::logic_error("Ошибка: вектора разных размеров");
 	}
 
-	std::string get_index(size_t i )
+	void is_v_names_valid() const
 	{
-		return this->v_names.at(i);
+		for (const auto& name : this->v_names) {
+			if (!std::ranges::all_of(name, isalpha))
+				throw std::invalid_argument("Это не имена");
+		}
+	}
+	void is_v_ages_valid() const
+	{
+		for (const auto& age : this->v_ages) {
+			if (!(age > 0 && age < 150))
+				throw std::invalid_argument("Люди столько не живут");
+		}
 	}
 
-	void apply_ordering(const std::vector<size_t>& indeces)
+	template<typename T>
+	void print(const std::vector<T>& v)
 	{
+		for (const T& val : v ) {std::cout << val << " ";}
+		std::cout << "\n";
+	}
 
+	//тупо лень креативить вот и написал баббл сорт
+	void sort_indices(std::vector<size_t>& v_indices) const
+	{
+		const size_t size = v_names.size();
+
+		for (size_t i = 0; i < size-1; i++)
+		{
+			bool swapped = false;
+			for (size_t j = 0; j < size-i-1; j++) {
+				if (this->v_names.at(v_indices.at(j)) > this->v_names.at(v_indices.at(j+1)) ) {
+					std::swap(v_indices.at(j), v_indices.at(j+1));
+					swapped = true;
+				}
+			}
+			if (!swapped) return;
+		}
+	}
+
+	//можно было реализовать через все это через шаблон чтобы не дублировать код
+	//но тогда будет потеря в производительности из-за многократного вызова цикла, а так вызывается один
+	void apply_ordering(const std::vector<size_t>& v_indices)
+	{
+		std::vector<std::string> temp_v_names;
+		std::vector<double> temp_v_ages;
+
+		for (const auto& index : v_indices) {
+			temp_v_names.push_back(v_names.at(index));
+			temp_v_ages.push_back(v_ages.at(index));
+		}
+
+		v_names = std::move(temp_v_names);
+		v_ages = std::move(temp_v_ages);
 	}
 
 	public:
@@ -108,23 +161,30 @@ class name_pairs
 		std::vector<size_t> v_indices(this->v_names.size());
 		//функция заполняет вектор числами, ну чо удобно
 		std::iota(v_indices.begin(), v_indices.end(), 0);
+		//print(v_indices);
 
-		/*std::ranges::sort(v_indices, {}, [this](const size_t& i){
-			return this->v_names.at(i);
-		});*/
-		std::ranges::sort(v_indices, {}, get_index());
+		sort_indices(v_indices);
+		//print(v_indices);
 
-
+		apply_ordering(v_indices);
+		//print(v_indices);
 	}
 
 };
 
 int main()
 {
-	name_pairs obj;
-
-	std::vector<std::string> v_names{"олег", "stepan","gzegoz","sigma", "donbas", "oreshnik"};
-	std::vector<double> v_ages{1, 2, 3, 4, 5, 6};
+	//std::vector<std::string> v_names{"олег", "stepan","gzegoz","sigma", "donbas", "oreshnik", "жопа"};
+	std::vector<std::string> v_names = {
+		"Андрей",
+		"Мария",
+		"Сергей",
+		"Ольга",
+		"Дмитрий",
+		"Екатерина",
+		"Алексей"
+	};
+	std::vector<double> v_ages{1, 2, 3, 4, 5, 6, 7};
 
 	/*obj.read_names();
 	obj.read_ages();
@@ -132,9 +192,10 @@ int main()
 
 	name_pairs obj1{v_names, v_ages};
 
+	obj1.sort();
 
 
-	//std::cout << obj1 << std::endl;
+	std::cout << obj1 << "\n";
 
 
 }

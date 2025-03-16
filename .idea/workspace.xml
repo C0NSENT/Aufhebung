@@ -7,6 +7,7 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -32,14 +33,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1235377-d8f2-4f76-9e7c-45cd93c61da8" name="Changes" comment="Обновление файлов">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_03.dir/exercise_03.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_03.dir/exercise_03.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_03.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_03.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_02.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_02.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_03.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +156,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.exercise_03">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exercise_02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="exercise_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="exercise_02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -222,7 +229,7 @@
       <workItem from="1742026984703" duration="596000" />
       <workItem from="1742039946432" duration="4497000" />
       <workItem from="1742053382004" duration="9928000" />
-      <workItem from="1742120111442" duration="10000" />
+      <workItem from="1742120111442" duration="6588000" />
     </task>
     <task id="LOCAL-00001" summary="ывафывфывафваы вфыяк АС">
       <option name="closed" value="true" />
@@ -280,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742059646685</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742120526153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742120526153</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
