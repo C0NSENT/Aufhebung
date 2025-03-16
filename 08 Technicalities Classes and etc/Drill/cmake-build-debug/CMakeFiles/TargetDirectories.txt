@@ -1,3 +1,0 @@
-D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Drill/cmake-build-debug/CMakeFiles/date.dir
-D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Drill/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Drill/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/month_operator_overloading.dir
-D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Try This/cmake-build-debug/CMakeFiles/rebuild_cache.dir
