@@ -7,7 +7,6 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -33,24 +32,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1235377-d8f2-4f76-9e7c-45cd93c61da8" name="Changes" comment="Обновление файлов">
-      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/cache-v2-860895d1bb943cf65c3c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7031608e87c35d731fa8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-39-20-0071.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/target-execise_03-Debug-45ecd1a7030e68f99816.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_03.dir/exercise_03.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_03.dir/exercise_03.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_03.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_03.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_03.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,60 +105,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "CMake Application.date.executor": "Run",
-    "CMake Application.drill.executor": "Run",
-    "CMake Application.drill_07.executor": "Run",
-    "CMake Application.execise_03.executor": "Run",
-    "CMake Application.exercise_01.executor": "Run",
-    "CMake Application.exercise_02.executor": "Run",
-    "CMake Application.exercise_03.executor": "Run",
-    "CMake Application.exercise_09.executor": "Run",
-    "CMake Application.exercise_12.executor": "Run",
-    "CMake Application.exercise_13.executor": "Run",
-    "CMake Application.exersice_07.executor": "Run",
-    "CMake Application.first_attempt.executor": "Run",
-    "CMake Application.input_and_type.executor": "Run",
-    "CMake Application.month_operator_overloading.executor": "Run",
-    "CMake Application.range_errors.executor": "Run",
-    "CMake Application.stroustrup_calculator.executor": "Run",
-    "CMake Application.stroustup_calculator.executor": "Run",
-    "CMake Application.test.executor": "Debug",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/main.cpp",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.date.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.drill.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.drill_07.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.execise_03.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_01.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_02.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_03.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_09.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_12.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_13.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exersice_07.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.first_attempt.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.input_and_type.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.month_operator_overloading.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.range_errors.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.stroustrup_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.stroustup_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/main.cpp&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.exercise_03">
     <configuration name="exercise_02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="exercise_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="exercise_02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -237,7 +221,8 @@
       <workItem from="1741994883081" duration="2000" />
       <workItem from="1742026984703" duration="596000" />
       <workItem from="1742039946432" duration="4497000" />
-      <workItem from="1742053382004" duration="5849000" />
+      <workItem from="1742053382004" duration="9928000" />
+      <workItem from="1742120111442" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="ывафывфывафваы вфыяк АС">
       <option name="closed" value="true" />
@@ -279,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741972260620</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742059603016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742059603016</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742059646685</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742059646685</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

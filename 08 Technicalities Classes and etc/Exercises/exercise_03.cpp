@@ -10,8 +10,8 @@
 #include <algorithm>
 #include <ranges>
 #include <stdexcept>
-#include <clocale>
-#include<windows.h>
+#include <numeric>
+
 
 class name_pairs
 {
@@ -25,6 +25,16 @@ class name_pairs
 	{
 		if (this->v_names.size() != this->v_ages.size())
 			throw std::logic_error("Ошибка: вектора разных размеров");
+	}
+
+	std::string get_index(size_t i )
+	{
+		return this->v_names.at(i);
+	}
+
+	void apply_ordering(const std::vector<size_t>& indeces)
+	{
+
 	}
 
 	public:
@@ -95,40 +105,26 @@ class name_pairs
 
 	void sort()
 	{
-		const std::vector<std::string> temp_names = this->v_names;
-		std::vector<double> temp_ages;
-		std::ranges::sort(this->v_names);
+		std::vector<size_t> v_indices(this->v_names.size());
+		//функция заполняет вектор числами, ну чо удобно
+		std::iota(v_indices.begin(), v_indices.end(), 0);
 
-		for (int i = 0; i < this->v_names.size(); i++) {
-			for (const auto & v_name : this->v_names) {
-				if (temp_names.at(i) == v_name) {
-					temp_ages.push_back(this->v_ages.at(i));
-				}
-			}
-		}
+		/*std::ranges::sort(v_indices, {}, [this](const size_t& i){
+			return this->v_names.at(i);
+		});*/
+		std::ranges::sort(v_indices, {}, get_index());
 
-		this->v_ages = temp_ages;
+
 	}
 
 };
 
 int main()
 {
-
 	name_pairs obj;
 
 	std::vector<std::string> v_names{"олег", "stepan","gzegoz","sigma", "donbas", "oreshnik"};
 	std::vector<double> v_ages{1, 2, 3, 4, 5, 6};
-
-	std::string test;
-	std::cin >> test;
-
-	std::cout << "it works\n";
-	std::cout << test << " олег "<< '\n';
-
-	if (test == "олег") {
-
-	}
 
 	/*obj.read_names();
 	obj.read_ages();
