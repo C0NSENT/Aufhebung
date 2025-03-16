@@ -11,6 +11,7 @@ target_compile_options(exercise_03 PRIVATE "-finput-charset=UTF-8" "-fexec-chars
 
 
 project(exercise_05)
-add_executable(exercise_05 exercise_05.cpp)
+add_executable(exercise_05 library_v1/src/book_v1.cpp library_v1/src/date.cpp
+        library_v1/headers/date.h library_v1/headers/book_v1.h)
 
 add_executable(test test.cpp)

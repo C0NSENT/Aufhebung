@@ -1,0 +1,19 @@
+# ninja log v6
+3	1112	7638437438359422	CMakeFiles/exercise_03.dir/exercise_03.cpp.obj	998a57aa6711e9b7
+1114	1242	7638437449474683	exercise_03.exe	c194508b9d998c1b
+4	649	7638493413784349	CMakeFiles/exercise_05.dir/library_v1/date.cpp.obj	c671d40e5a76fa95
+3	205	7638524805693327	build.ninja	89be334d58b3a26b
+2	190	7638524805693327	build.ninja	89be334d58b3a26b
+3	730	7638524805892796	CMakeFiles/exercise_05.dir/library_v1/src/date.cpp.obj	9b22bce3a4376842
+1	3047	7638524805872843	CMakeFiles/exercise_05.dir/library_v1/src/book_v1.cpp.obj	b8b16025db5cb8ed
+3048	4612	7638524836331064	exercise_05.exe	33769b2c174644ea
+9	743	7638528963932805	CMakeFiles/exercise_05.dir/library_v1/src/date.cpp.obj	9b22bce3a4376842
+5	3049	7638528963902578	CMakeFiles/exercise_05.dir/library_v1/src/book_v1.cpp.obj	b8b16025db5cb8ed
+3055	4627	7638528994396607	exercise_05.exe	33769b2c174644ea
+5	3265	7638529471615935	CMakeFiles/exercise_05.dir/library_v1/src/book_v1.cpp.obj	b8b16025db5cb8ed
+3265	4823	7638529504217625	exercise_05.exe	33769b2c174644ea
+5	552	7638530739308257	CMakeFiles/exercise_05.dir/library_v1/src/date.cpp.obj	9b22bce3a4376842
+552	2144	7638530744783593	exercise_05.exe	33769b2c174644ea
+8	736	7638531655694379	CMakeFiles/exercise_05.dir/library_v1/src/date.cpp.obj	9b22bce3a4376842
+5	3037	7638531655664448	CMakeFiles/exercise_05.dir/library_v1/src/book_v1.cpp.obj	b8b16025db5cb8ed
+3037	4593	7638531685989061	exercise_05.exe	33769b2c174644ea
