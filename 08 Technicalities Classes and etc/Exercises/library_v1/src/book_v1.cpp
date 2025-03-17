@@ -18,10 +18,14 @@ bool book::is_valid() {
 	return (is_isbn_valid());
 }
 
+
 bool book::is_isbn_valid() const
 {
-	const std::regex pattern(R"(\d+-\d+-\d+-\d+-[0-9A-Z])");
-	return std::regex_match(this->isbn_, pattern);
+	const std::regex isbn13_pattern(R"(^(978|979)-\d-\d+-\d+-\d$)");
+	const std::regex isbn10_pattern(R"(^\d+-\d+-\d+-[0-9X]$)");
+
+	return (std::regex_match(this->isbn_, isbn13_pattern)
+		|| std::regex_match(this->isbn_, isbn10_pattern));
 }
 
 //============================КОНСТРУКТОРЫ======================================
@@ -38,6 +42,25 @@ book::book(const std::string &isbn, const std::string &title, const std::string 
 	if (!is_isbn_valid()) {
 		throw std::invalid_argument("book::book(): invalid book isbn");
 	}
+}
+
+//============================ОПЕРАТОРЫ======================================
+
+bool book::operator==(const book &other) const {
+	return this->isbn_ == other.isbn_;
+}
+
+bool book::operator!=(const book &other) const {
+	return this->isbn_ != other.isbn_;
+}
+
+std::ostream& operator<<(std::ostream& os, const book& obj)
+{
+	os << obj.get_title() << "\n";
+	os << obj.get_author() << "\n";
+	os << obj.get_isbn();
+
+	return os;
 }
 
 //============================ГЕТТЕРЫ======================================
@@ -60,8 +83,9 @@ bool book::is_checked_out() const {
 
 int main()
 {
-	date date1{"1922-02-2"};
+	const date date1{"1922-02-2"};
 	book book1 {"978-2-382226-147-7", "Ulysses", "James Joyce", date1, true};
 
+	std::cout << book1 << "\n";
 }
 

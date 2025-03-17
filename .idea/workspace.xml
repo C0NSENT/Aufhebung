@@ -6,7 +6,6 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -31,18 +30,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Aufhebung.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/date.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/date.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_05.cpp" beforeDir="false" />
+    <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b908e7dfa9daea6ef108.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_05.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_05.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +98,14 @@
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "<unknown>",
     "last_opened_file_path": "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/library_v1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.song.deep.seek.pro.settings.DeepSeekSettingsConfigurable",
+    "settings.editor.selected.configurable": "discord-application",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,11 +120,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.exercise_05">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exercise_02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="exercise_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="exercise_02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -164,8 +158,19 @@
       <workItem from="1742140517674" duration="215000" />
       <workItem from="1742140742573" duration="16000" />
       <workItem from="1742140768814" duration="303000" />
-      <workItem from="1742141090099" duration="7712000" />
+      <workItem from="1742141090099" duration="8957000" />
+      <workItem from="1742168925312" duration="3467000" />
+      <workItem from="1742197250232" duration="2000" />
     </task>
+    <task id="LOCAL-00001" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742150041272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742150041272</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +180,10 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Обновление файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление файлов" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

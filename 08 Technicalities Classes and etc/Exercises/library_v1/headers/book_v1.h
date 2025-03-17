@@ -30,6 +30,7 @@ class book
 
 	bool is_valid();
 	bool is_isbn_valid() const;
+	bool is_isbn_checksum_valid() const;
 
 public:
 	//============================КОНСТРУКТОРЫ======================================
@@ -38,6 +39,12 @@ public:
 	book(const std::string& isbn, const std::string& title, const std::string& author,
 		const date& copyright_date, const bool& is_checked_out);
 
+	//============================ОПЕРАТОРЫ======================================
+
+	bool operator==(const book& other) const;
+	bool operator!=(const book& other) const;
+
+	friend std::ostream& operator<<(std::ostream& os, const book& obj);
 
 	//============================ГЕТТЕРЫ======================================
 	std::string get_isbn() const;
