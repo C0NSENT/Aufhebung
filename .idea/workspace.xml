@@ -18,10 +18,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="exercise_05" targetName="exercise_03" />
-      <config projectName="exercise_05" targetName="exercise_02" />
-      <config projectName="exercise_05" targetName="test" />
-      <config projectName="exercise_05" targetName="exercise_05" />
+      <config projectName="library" targetName="library" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -31,17 +28,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/book.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/date.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/library.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/patron.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/book.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/date.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/library.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/patron.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b908e7dfa9daea6ef108.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/cache-v2-74a76dc7cdaa9b58f7d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f7c7462e4fbfaac7217a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-16T23-48-46-0955.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_05.dir/library_v1/src/book_v1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_05.dir/library_v1/src/book_v1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_05.dir/library_v1/src/date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_05.dir/library_v1/src/date.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_05.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/cmake-build-debug/exercise_05.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/date.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +70,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,6 +93,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/library.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/library.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -90,6 +119,8 @@
   "keyToString": {
     "CMake Application.exercise_03.executor": "Run",
     "CMake Application.exercise_05.executor": "Run",
+    "CMake Application.exercise_08.executor": "Run",
+    "CMake Application.library.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -98,8 +129,8 @@
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/library_v1",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/exercise_09/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,41 +142,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_09\src" />
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_09\headers" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1\src" />
-      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1\headers" />
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_09\headers" />
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_08" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1" />
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1\headers" />
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.exercise_05">
-    <configuration name="exercise_02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="exercise_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="exercise_02">
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise_03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="exercise_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="exercise_03">
+    <configuration name="library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="library" TARGET_NAME="library" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="library" RUN_TARGET_NAME="library">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise_05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="exercise_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="exercise_05">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise_05" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise_05" RUN_TARGET_NAME="test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.exercise_02" />
-      <item itemvalue="CMake Application.exercise_03" />
-      <item itemvalue="CMake Application.exercise_05" />
-      <item itemvalue="CMake Application.test" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -160,7 +179,9 @@
       <workItem from="1742140768814" duration="303000" />
       <workItem from="1742141090099" duration="8957000" />
       <workItem from="1742168925312" duration="3467000" />
-      <workItem from="1742197250232" duration="2000" />
+      <workItem from="1742197250232" duration="103000" />
+      <workItem from="1742197369004" duration="13531000" />
+      <workItem from="1742216084137" duration="1893000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление файлов">
       <option name="closed" value="true" />
@@ -170,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742150041272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742197305127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742197305127</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742197385778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742197385778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -34,7 +34,7 @@ date& date::operator=(const date& obj)
 
 std::ostream& operator<<(std::ostream& os, const date& obj)
 {
-	os << obj.y <<" "<< obj.m <<" "<<obj.d;
+	os << obj.y <<"/"<< obj.m <<"/"<<obj.d;
 	return os;
 }
 

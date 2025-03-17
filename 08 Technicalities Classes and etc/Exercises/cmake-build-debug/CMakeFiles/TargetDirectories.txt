@@ -2,5 +2,6 @@ D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 T
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_03.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_05.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/test.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/exercise_08.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir

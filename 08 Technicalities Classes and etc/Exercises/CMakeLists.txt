@@ -15,3 +15,9 @@ add_executable(exercise_05 library_v1/src/book_v1.cpp library_v1/src/date.cpp
         library_v1/headers/date.h library_v1/headers/book_v1.h)
 
 add_executable(test test.cpp)
+
+project (exercise_08)
+add_executable(exercise_08 exercise_08/patron_v1.cpp exercise_08/patron_v1.h)
+
+
+

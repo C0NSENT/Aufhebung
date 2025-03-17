@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: exercise_05
+# Project: exercise_08
 # Configurations: Debug
 # =============================================================================
 
@@ -178,6 +178,39 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
   TARGET_IMPLIB = libtest.dll.a
   TARGET_PDB = test.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_08
+
+
+#############################################
+# Order-only phony target for exercise_08
+
+build cmake_object_order_depends_target_exercise_08: phony || .
+
+build CMakeFiles/exercise_08.dir/exercise_08/patron_v1.cpp.obj: CXX_COMPILER__exercise_08_unscanned_Debug D$:/Open$ this$ folder$ only$ if$ you$ are$ listening$ Skinny$ Puppy$ rn/C++/Aufhebung/08$ Technicalities$ Classes$ and$ etc/Exercises/exercise_08/patron_v1.cpp || cmake_object_order_depends_target_exercise_08
+  DEP_FILE = CMakeFiles\exercise_08.dir\exercise_08\patron_v1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercise_08.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise_08.dir\exercise_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_08
+
+
+#############################################
+# Link the executable exercise_08.exe
+
+build exercise_08.exe: CXX_EXECUTABLE_LINKER__exercise_08_Debug CMakeFiles/exercise_08.dir/exercise_08/patron_v1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exercise_08.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise_08.exe
+  TARGET_IMPLIB = libexercise_08.dll.a
+  TARGET_PDB = exercise_08.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,6 +243,8 @@ build exercise_03: phony exercise_03.exe
 
 build exercise_05: phony exercise_05.exe
 
+build exercise_08: phony exercise_08.exe
+
 build test: phony test.exe
 
 # =============================================================================
@@ -220,7 +255,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug
 
-build all: phony exercise_02.exe exercise_03.exe exercise_05.exe test.exe
+build all: phony exercise_02.exe exercise_03.exe exercise_05.exe test.exe exercise_08.exe
 
 # =============================================================================
 # Built-in targets

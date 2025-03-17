@@ -157,7 +157,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=exercise_05
+CMAKE_PROJECT_NAME:STATIC=exercise_08
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/bin/ranlib.exe
@@ -268,6 +268,24 @@ exercise_05_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 exercise_05_SOURCE_DIR:STATIC=D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises
+
+//Value Computed by CMake
+exercise_08_BINARY_DIR:STATIC=D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug
+
+//Value Computed by CMake
+exercise_08_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+exercise_08_SOURCE_DIR:STATIC=D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises
+
+//Value Computed by CMake
+exercise_09_BINARY_DIR:STATIC=D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/cmake-build-debug
+
+//Value Computed by CMake
+exercise_09_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+exercise_09_SOURCE_DIR:STATIC=D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises
 
 
 ########################
