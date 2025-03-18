@@ -28,8 +28,8 @@ class date
 //===========================ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ================================
 
 
-	bool is_valid(const int& y, const month& m, const int& d);
-
+	bool is_valid();
+	bool is_str_format_valid(const std::string& str_date);
 
 	bool is_leap(const int& y);
 
@@ -60,7 +60,6 @@ public:
 	date();
 	date(const std::string& s);
 	date(const int& y, const month& m, const int& d );
-	date(const month& m, const int& d, const int& y);
 	date(const date& date);
 	//если тебе нечего делать можешь еще конструкторы понаписать
 
@@ -83,16 +82,6 @@ public:
 
 	date& operator++(int)
 	{
-		/*if (this->d==days_in_month(this->m, this->y))
-		{
-			this->d = 1;
-		}
-		else this->d++;*/
-
-		//this->d = (this->d==days_in_month(this->m, this->y)) ? 1 : this->d+1;
-
-		//Совсем забыл про год проще просто функция add_day() вызвать
-
 		add_day(1);
 
 		return *this;

@@ -4,6 +4,7 @@
 
 #include "../headers/date.h"
 #include <array>
+#include <regex>
 
 
 //===========================ОПЕРАТОРЫ================================
@@ -41,7 +42,7 @@ std::ostream& operator<<(std::ostream& os, const date& obj)
 //===========================ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ================================
 
 
-bool date::is_valid(const int& y, const month& m, const int& d)
+bool date::is_valid()
 {
 	if (m == month::feb)
 	{
@@ -53,6 +54,12 @@ bool date::is_valid(const int& y, const month& m, const int& d)
 	if (y < 0) return false;
 
 	return true;
+}
+
+bool date::is_str_format_valid(const std::string& str_date)
+{
+	std::regex pattern(R"(^\d{4}-\d{1,2}-\d{1,2}$)");
+	return std::regex_match(str_date, pattern);
 }
 
 bool date::is_leap(const int &y) {
@@ -89,6 +96,9 @@ int date::days_in_month(const month &m, const int& y)
 
 date date::str_to_date(const std::string &str_date)
 {
+	if (!is_str_format_valid(str_date))
+		throw std::invalid_argument("Date::str_to_date() - Неверный формат строки");
+
 	std::array<std::string, 3> v_str_separated;
 
 	try
@@ -122,23 +132,6 @@ date date::str_to_date(const std::string &str_date)
 
 	return obj;
 }
-
-/*bool date::is_str_valid(const std::array<std::string, 3>& str_date)
-{
-	bool is_year_valid = true;
-
-
-}*/
-
-/*bool date::is_arr_date_valid(const std::array<int, 3> &arr_date)
-{
-	int y_counter = 0;
-	int m_counter = 0;
-	int d_counter = 0;
-
-
-}*/
-
 
 int date::date_to_days(const date &date)
 {
@@ -195,16 +188,11 @@ date::date():date(1600, month::jan, 1){}
 date::date(const std::string& s):date(str_to_date(s)){}
 
 date::date(const int &y, const month &m, const int &d)
+	: y(y), m(m), d(d)
 {
-	if (!is_valid(y, m, d))
+	if (!is_valid())
 		throw std::invalid_argument("Ваша дата - инвалид, соболезнуем");
-
-	this->y = y;
-	this->m = m;
-	this->d = d;
 }
-
-date::date(const month &m, const int &d, const int &y):date(y, m, d){}
 
 date::date(const date &date)
 {

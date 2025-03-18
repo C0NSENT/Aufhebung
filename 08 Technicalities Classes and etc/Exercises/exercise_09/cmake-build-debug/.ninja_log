@@ -1,8 +1,11 @@
 # ninja log v6
-8	712	7639208543842481	CMakeFiles/library.dir/src/library.cpp.obj	1a4992aceefe438d
-10	777	7639208543862423	CMakeFiles/library.dir/src/patron.cpp.obj	10862c094d19e66c
-6	837	7639208543822535	CMakeFiles/library.dir/src/date.cpp.obj	cd96f601d306e21b
-3	3205	7639208543792607	CMakeFiles/library.dir/src/book.cpp.obj	71841e3e3364024a
-10	675	7639208868599499	CMakeFiles/library.dir/src/patron.cpp.obj	10862c094d19e66c
-7	3082	7639208868569571	CMakeFiles/library.dir/src/book.cpp.obj	71841e3e3364024a
-3082	4669	7639208899320202	library.exe	8a930d2195dd3866
+4	3193	7639215463423115	CMakeFiles/library.dir/src/book.cpp.obj	3d88dc11585e19ad
+7	737	7639215463453035	CMakeFiles/library.dir/src/library.cpp.obj	a2e6a41f11f038ad
+9	819	7639215463472978	CMakeFiles/library.dir/src/patron.cpp.obj	352045569782952f
+5	860	7639215463433087	CMakeFiles/library.dir/src/date.cpp.obj	1087327b6b3aa699
+3194	4781	7639215495318979	library.exe	8a930d2195dd3866
+4	196	7639223467631710	build.ninja	2b49ca9fec3446cf
+17	749	7639944831406572	CMakeFiles/library.dir/src/library.cpp.obj	a2e6a41f11f038ad
+15	3172	7639944831386620	CMakeFiles/library.dir/src/date.cpp.obj	1087327b6b3aa699
+12	3222	7639944831356704	CMakeFiles/library.dir/src/book.cpp.obj	3d88dc11585e19ad
+3222	6229	7639944863447612	library.exe	8a930d2195dd3866
