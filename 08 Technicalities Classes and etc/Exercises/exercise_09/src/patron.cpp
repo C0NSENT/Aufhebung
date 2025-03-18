@@ -50,3 +50,12 @@ std::ostream& operator<<(std::ostream& os, const patron& obj) {
 
 	return os;
 }
+
+bool patron::operator==(const patron& other) const
+{
+	return (this->name_ == other.name_)
+		&& (this->library_card_num_ == other.library_card_num_)
+		&& (this->library_fee_ == other.library_fee_);
+}
+
+bool patron::operator!=(const patron& other) const {return !(operator==(other));}

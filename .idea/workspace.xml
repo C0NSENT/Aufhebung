@@ -29,26 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-23b804a9a9e8f08193c6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ed759463277b76030a9e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-17T13-20-16-0615.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.cmake/api/v1/reply/target-library-Debug-dbae58112a3152ef6f50.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/book.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/book.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/date.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/library.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/library.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/patron.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/CMakeFiles/library.dir/src/patron.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/cmake-build-debug/library.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/date.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/date.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/book.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/book.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/library.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/library.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/patron.h" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/headers/patron.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/book.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/book.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/library.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/library.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/patron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/08 Technicalities Classes and etc/Exercises/exercise_09/src/patron.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CMakeLists.txt" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -169,7 +163,10 @@
       <workItem from="1742219144205" duration="1245000" />
       <workItem from="1742223434966" duration="18000" />
       <workItem from="1742234298296" duration="616000" />
-      <workItem from="1742287759807" duration="4011000" />
+      <workItem from="1742287759807" duration="6488000" />
+      <workItem from="1742296724500" duration="604000" />
+      <workItem from="1742316815605" duration="5193000" />
+      <workItem from="1742329855481" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление файлов">
       <option name="closed" value="true" />
@@ -203,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742218036243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1742292556101</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742292556101</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

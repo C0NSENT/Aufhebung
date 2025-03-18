@@ -42,7 +42,9 @@ public:
 
 	book();
 	book(const std::string& isbn, const std::string& title, const std::string& author,
-		const date& copyright_date, const genre& genre, const bool& is_checked_out);
+		const date& copyright_date, const genre& genre,  bool is_checked_out = false);
+	book (const std::string& isbn, const std::string& title, const std::string& author,
+		const date& copyright_date, const genre& genre, bool is_checked_out = false);
 
 	//============================ОПЕРАТОРЫ======================================
 

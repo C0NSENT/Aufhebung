@@ -42,6 +42,9 @@ public:
 
 	friend std::ostream& operator<<(std::ostream& os, const patron& obj);
 
+	bool operator==(const patron& other) const;
+	bool operator!=(const patron& other) const;
+
 };
 
 #endif //PATRON_V1_H
