@@ -49,6 +49,16 @@ book::book(const std::string &isbn, const std::string &title, const std::string 
 	}
 }
 
+book::book(const std::string &isbn, const std::string &title,
+	const std::string &author, const std::string &copyright_date,
+	const genre &genre, bool is_checked_out)
+	: book(isbn, title, author,
+	  date{copyright_date}, genre, is_checked_out)
+{
+	if (!is_isbn_valid())
+		throw std::invalid_argument("book::book(): invalid book isbn");
+}
+
 //============================ОПЕРАТОРЫ======================================
 
 bool book::operator==(const book &other) const {

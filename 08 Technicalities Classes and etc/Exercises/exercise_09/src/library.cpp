@@ -88,6 +88,45 @@ std::vector<patron> library::get_debtors() const
 
 int main()
 {
-	book ulysses{"978-2-38226-147-7","Ulysses", "James Joyce", "1920-02-02", book::genre::fiction};
+	const book ulysses
+	{
+		"978-2-38226-147-7",
+		"Ulysses",
+		"James Joyce",
+		"1920-02-02",
+		book::genre::fiction
+	};
 
+	const book diamat
+	{
+		"978-5-907729-42-1",
+		"Диалектический Материализм",
+		"Морис Корфорт",
+		"2023-01-01",
+		book::genre::nonfiction
+	};
+
+	const book book3
+	{
+		"978-5-17-151400-6",
+		"Десять дней, которые потрясли весь мир",
+		"Джон Рид",
+		"2022-01-01",
+		book::genre::nonfiction
+	};
+
+	const std::vector<book> books{ulysses, diamat, book3};
+
+	patron patron1("Alice Smith", 12345, 25.5);   // С указанием взноса
+	patron patron2("Bob Johnson", 67890);
+
+	patron patron3("Carol Williams", 13579);        // Взнос по умолчанию
+	patron patron4("Dave Brown", 24680, 15.75);     // С дробным взносом
+	patron patron5("Eva Davis", 11223, 100.0);// С крупным взносом
+
+	std::vector<patron> patrons{patron1, patron2, patron3, patron4};
+
+	library lib{patrons, books};
+
+	lib.add_patron(patron5);
 }
