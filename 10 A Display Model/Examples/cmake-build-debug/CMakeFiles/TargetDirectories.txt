@@ -1,0 +1,3 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/example_10.3.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir

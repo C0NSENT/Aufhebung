@@ -84,8 +84,6 @@ std::vector<patron> library::get_debtors() const
 	return debtors;
 }
 
-
-
 int main()
 {
 	const book ulysses
@@ -129,4 +127,6 @@ int main()
 	library lib{patrons, books};
 
 	lib.add_patron(patron5);
+
+	lib.check_out(patron2, book3, date{"2025-03-19"});
 }

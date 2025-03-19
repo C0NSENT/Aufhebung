@@ -1,0 +1,9 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/Programming_Qt.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/list_install_components.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/install.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/install/local.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/install/strip.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/Programming_Qt_autogen_timestamp_deps.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/cmake-build-debug/CMakeFiles/Programming_Qt_autogen.dir
