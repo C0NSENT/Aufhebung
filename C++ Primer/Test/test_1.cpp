@@ -11,6 +11,7 @@ class foo
 	foo(const int& a ) : a(a) {}
 
 	const int& get() const { return this->a; }
+	int bar() const {return 1;}
 };
 
 int main()
@@ -20,7 +21,7 @@ int main()
 	/*int* a;
 	a{ obj.get()};*/
 
-	obj.get()++;
+	obj.bar();
 
 	std::cout << obj.get() << std::endl;
 }
