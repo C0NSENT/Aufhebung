@@ -1,0 +1,16 @@
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\10 A Display Model\Examples" -B "D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\10 A Display Model\Examples\cmake-build-debug"
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.4s)
+CMake Error at C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:695 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+Call Stack (most recent call first):
+  C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:646 (_qt_internal_create_executable)
+  C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:945 (qt6_add_executable)
+  D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/PPP3/CMakeLists.txt:35 (qt_add_executable)
+  CMakeLists.txt:6 (include)
+
+
+-- Generating done (0.2s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.

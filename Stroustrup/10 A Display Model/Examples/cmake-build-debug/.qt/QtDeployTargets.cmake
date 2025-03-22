@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_Programming_Qt_FILE D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/Programming_Qt.exe)
+set(__QT_DEPLOY_TARGET_Programming_Qt_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_Programming_Qt_RUNTIME_DLLS C:/Qt/6.8.2/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_example_10.3_FILE D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/example_10.3.exe)
+set(__QT_DEPLOY_TARGET_example_10.3_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_example_10.3_RUNTIME_DLLS )

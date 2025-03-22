@@ -1,0 +1,12 @@
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/Programming_Qt.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/example_10.3.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/list_install_components.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/install.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/install/local.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/install/strip.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/Programming_Qt_autogen_timestamp_deps.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/Programming_Qt_autogen.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/example_10.3_autogen_timestamp_deps.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/10 A Display Model/Examples/cmake-build-debug/CMakeFiles/example_10.3_autogen.dir
