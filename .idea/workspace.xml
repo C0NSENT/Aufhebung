@@ -7,7 +7,6 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="26" type="long" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -20,7 +19,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="test_1" targetName="test_1" />
+      <config projectName="aggregate_class" targetName="test_1" />
+      <config projectName="aggregate_class" targetName="aggregate_class" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,31 +30,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
+      <change afterPath="$PROJECT_DIR$/C++ Primer/Test/aggregate_class.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.cmake/api/v1/reply/cache-v2-0dfef2e3dea2a46c3f94.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-53b7e605d3216736a42e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-510586b7e33047ed750f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-22T09-40-52-0093.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.cmake/api/v1/reply/target-test_1-Debug-c8f3929a14f63926c039.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6082f31f4c46160119db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/test_1.dir/test_1.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/test_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/test_1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/test_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/test_1.cpp" afterDir="false" />
     </list>
@@ -132,7 +119,7 @@
     &quot;CMake Application.exercise_05.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.exercise_08.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.library.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.test_1.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.test_1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -167,12 +154,21 @@
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1\headers" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="test_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_1" TARGET_NAME="test_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_1" RUN_TARGET_NAME="test_1">
+  <component name="RunManager" selected="CMake Application.aggregate_class">
+    <configuration name="aggregate_class" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aggregate_class" TARGET_NAME="aggregate_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aggregate_class" RUN_TARGET_NAME="aggregate_class">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aggregate_class" TARGET_NAME="test_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aggregate_class" RUN_TARGET_NAME="test_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.aggregate_class" />
+      <item itemvalue="CMake Application.test_1" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -207,6 +203,10 @@
       <workItem from="1742639577521" duration="6169000" />
       <workItem from="1742652741101" duration="3000" />
       <workItem from="1742656618423" duration="1797000" />
+      <workItem from="1743403900556" duration="4911000" />
+      <workItem from="1743422101475" duration="52000" />
+      <workItem from="1743429490014" duration="4530000" />
+      <workItem from="1743448629735" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление файлов">
       <option name="closed" value="true" />
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742639694913</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743404161432</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743404161432</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
