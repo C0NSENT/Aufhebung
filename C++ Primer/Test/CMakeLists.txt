@@ -8,3 +8,6 @@ add_executable(${PROJECT_NAME} test_1.cpp)
 
 project(aggregate_class)
 add_executable(${PROJECT_NAME} aggregate_class.cpp)
+
+project(static_class)
+add_executable(${PROJECT_NAME} static_class.cpp)
