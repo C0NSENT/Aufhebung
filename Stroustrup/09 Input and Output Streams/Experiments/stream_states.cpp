@@ -29,6 +29,8 @@ void foo(std::istream& ist)
 		if (ist.fail()) {
 			if (ist.rdstate() & std::ios::failbit) {
 
+				ist.clear(); //сброс флагов
+
 				if (char c; ist >> c && c == 'g' ) {
 					break;
 				} else {
