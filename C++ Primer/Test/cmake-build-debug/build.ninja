@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: aggregate_class
+# Project: static_class
 # Configurations: Debug
 # =============================================================================
 
@@ -106,6 +106,39 @@ build aggregate_class.exe: CXX_EXECUTABLE_LINKER__aggregate_class_Debug CMakeFil
   TARGET_IMPLIB = libaggregate_class.dll.a
   TARGET_PDB = aggregate_class.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target static_class
+
+
+#############################################
+# Order-only phony target for static_class
+
+build cmake_object_order_depends_target_static_class: phony || .
+
+build CMakeFiles/static_class.dir/static_class.cpp.obj: CXX_COMPILER__static_class_unscanned_Debug D$:/Open$ this$ folder$ only$ if$ you$ are$ listening$ Skinny$ Puppy$ rn/C++/Aufhebung/C++$ Primer/Test/static_class.cpp || cmake_object_order_depends_target_static_class
+  DEP_FILE = CMakeFiles\static_class.dir\static_class.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fansi-escape-codes -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles\static_class.dir
+  OBJECT_FILE_DIR = CMakeFiles\static_class.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target static_class
+
+
+#############################################
+# Link the executable static_class.exe
+
+build static_class.exe: CXX_EXECUTABLE_LINKER__static_class_Debug CMakeFiles/static_class.dir/static_class.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\static_class.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = static_class.exe
+  TARGET_IMPLIB = libstatic_class.dll.a
+  TARGET_PDB = static_class.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build aggregate_class: phony aggregate_class.exe
 
+build static_class: phony static_class.exe
+
 build test_1: phony test_1.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build test_1: phony test_1.exe
 #############################################
 # Folder: D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/C++ Primer/Test/cmake-build-debug
 
-build all: phony test_1.exe aggregate_class.exe
+build all: phony test_1.exe aggregate_class.exe static_class.exe
 
 # =============================================================================
 # Built-in targets

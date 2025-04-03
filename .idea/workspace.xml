@@ -19,8 +19,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="aggregate_class" targetName="test_1" />
-      <config projectName="aggregate_class" targetName="aggregate_class" />
+      <config projectName="Archiver" targetName="Archiver" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,10 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
-      <change afterPath="$PROJECT_DIR$/C++ Primer/Test/aggregate_class.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -42,8 +40,10 @@
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/test_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/test_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/test_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/test_1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/ZIP-Archiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/Archiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/ZIP-Archiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/Archiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,17 +78,13 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/C++ Primer/07 Classes/exercise_7_58.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/C++ Primer/Test/aggregate_class.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/C++ Primer/Test/static_class.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/C++ Primer/Test/test_1.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/Archiver.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/Archiver.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_09/headers/library.h" root0="FORCE_HIGHLIGHTING" />
@@ -114,11 +110,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;CMake Application.Archiver.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.Programming_Qt.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.exercise_03.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.exercise_05.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.exercise_08.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_7_58.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.library.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.static_class.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.test_1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -147,28 +146,19 @@
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Mini Projects\Archiver\cmake-build-debug" />
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Mini Projects\Archiver\cmake-build-debug\Testing" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Stroustrup" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_09\headers" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_08" />
-      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1" />
-      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1\headers" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.aggregate_class">
-    <configuration name="aggregate_class" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aggregate_class" TARGET_NAME="aggregate_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aggregate_class" RUN_TARGET_NAME="aggregate_class">
+  <component name="RunManager">
+    <configuration name="Archiver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Archiver" TARGET_NAME="Archiver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Archiver" RUN_TARGET_NAME="Archiver">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aggregate_class" TARGET_NAME="test_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aggregate_class" RUN_TARGET_NAME="test_1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.aggregate_class" />
-      <item itemvalue="CMake Application.test_1" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -207,6 +197,11 @@
       <workItem from="1743422101475" duration="52000" />
       <workItem from="1743429490014" duration="4530000" />
       <workItem from="1743448629735" duration="3000" />
+      <workItem from="1743491517109" duration="6599000" />
+      <workItem from="1743522820784" duration="3000" />
+      <workItem from="1743525329245" duration="3514000" />
+      <workItem from="1743583498804" duration="4594000" />
+      <workItem from="1743667023324" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление файлов">
       <option name="closed" value="true" />
@@ -296,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743404161432</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743527227960</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743527227960</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743528610445</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743528610445</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

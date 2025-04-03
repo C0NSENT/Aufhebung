@@ -1,4 +1,5 @@
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/C++ Primer/Test/cmake-build-debug/CMakeFiles/test_1.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/C++ Primer/Test/cmake-build-debug/CMakeFiles/aggregate_class.dir
+D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/C++ Primer/Test/cmake-build-debug/CMakeFiles/static_class.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/C++ Primer/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/C++ Primer/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
