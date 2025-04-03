@@ -19,7 +19,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Archiver" targetName="Archiver" />
+      <config projectName="fstream" targetName="fstream" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -29,21 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
+      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/architecture styles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/fstream.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/C++ Primer/Test/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/ZIP-Archiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/Archiver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/ZIP-Archiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/Archiver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini Projects/ZIP-Archiver/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projects/Archiver/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +73,9 @@
     <setting file="file://$PROJECT_DIR$/C++ Primer/Test/aggregate_class.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/C++ Primer/Test/static_class.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/C++ Primer/Test/test_1.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/Archiver.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/Archiver.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/Archiver.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/Archiver.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mini Projects/Archiver/main.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_08/patron_v1.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_09/headers/library.h" root0="FORCE_HIGHLIGHTING" />
@@ -154,7 +145,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Archiver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Archiver" TARGET_NAME="Archiver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Archiver" RUN_TARGET_NAME="Archiver">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fstream" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fstream" TARGET_NAME="fstream" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fstream" RUN_TARGET_NAME="fstream">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -201,7 +197,7 @@
       <workItem from="1743522820784" duration="3000" />
       <workItem from="1743525329245" duration="3514000" />
       <workItem from="1743583498804" duration="4594000" />
-      <workItem from="1743667023324" duration="1000" />
+      <workItem from="1743667023324" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление файлов">
       <option name="closed" value="true" />
@@ -307,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743528610445</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743668369364</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743668369364</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
