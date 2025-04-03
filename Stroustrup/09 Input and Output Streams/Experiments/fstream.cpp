@@ -7,7 +7,7 @@
 #include <string>
 #include <vector>
 
-auto file_handler(const std::string& file_name) -> std::vector<std::string>
+auto file_read(const std::string& file_name) -> std::vector<std::string>
 {
 	if (std::ifstream input_file(file_name); input_file.is_open()) {
 		std::string line;
@@ -16,17 +16,18 @@ auto file_handler(const std::string& file_name) -> std::vector<std::string>
 		while (std::getline(input_file, line)) {
 			result.push_back(line);
 		}
-		input_file.close();
 		return result;
 	}
 	throw std::runtime_error("File could not be opened");
 }
 
-void file_read(const std::string& file_name, std::vector<std::string>& vec)
+void file_write(const std::string& file_name, const std::vector<std::string>& vec)
 {
-	std::ofstream output_file(file_name, std::ios::out);
+	std::ofstream output_file(file_name);
 
-	if (output_file.is_open()) {
+	output_file << "# Архитектурные Стили\n";
+
+ 	if (output_file.is_open()) {
 
 		int counter{0};
 
@@ -34,6 +35,9 @@ void file_read(const std::string& file_name, std::vector<std::string>& vec)
 			output_file << (++counter) << ". " << s << "\n";
 		}
 		output_file.close();
+
+		std::cout << "Success\n";
+
 		return;
 	}
 	throw std::runtime_error("File could not be opened");
@@ -46,16 +50,19 @@ void print_vector(const std::vector<std::string>& vec)
 	}
 }
 
-
 int main()
 {
 	const std::string file_name("architecture styles.txt");
-	const std::string output_file_name("output.txt");
+	const std::string output_file_name("output.md");
 
-	std::vector<std::string> vec{file_handler(file_name)};
+	try {
+		const std::vector vec{file_read(file_name)};
+		file_write(output_file_name, vec);
+	}
+	catch (const std::runtime_error& e) {
+		std::cerr << "Error: " <<e.what() << std::endl;
+		return 1;
+	}
 
-	file_read(output_file_name, vec);
-
-	//print_vector(vec);
-
+	return 0;
 }
