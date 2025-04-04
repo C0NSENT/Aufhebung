@@ -18,7 +18,7 @@ auto file_read(const std::string& file_name) -> std::vector<std::string>
 		}
 		return result;
 	}
-	throw std::runtime_error("File could not be opened");
+	throw std::runtime_error("file_read(): File could not be opened");
 }
 
 void file_write(const std::string& file_name, const std::vector<std::string>& vec)
@@ -52,8 +52,8 @@ void print_vector(const std::vector<std::string>& vec)
 
 int main()
 {
-	const std::string file_name("architecture styles.txt");
-	const std::string output_file_name("output.md");
+	const std::string file_name("../Experiments/txt/architecture styles.txt");
+	const std::string output_file_name("../Experiments/txt/output.md");
 
 	try {
 		const std::vector vec{file_read(file_name)};

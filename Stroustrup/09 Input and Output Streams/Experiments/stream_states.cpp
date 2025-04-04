@@ -20,7 +20,7 @@ std::vector<int> input_vector(const std::string& terminator)
 	int num;
 
 	//автоматически выбрасывает ошибку при соотвествующих флагах у потока
-	std::cin.exceptions(std::cin.exceptions() | std::ios::badbit);
+	std::cin.exceptions(std::ios::badbit);
 
 	while (true) {
 		std::cin >> num;
@@ -32,18 +32,19 @@ std::vector<int> input_vector(const std::string& terminator)
 			break;
 		}
 		else if (std::cin.fail()) {
-			if (std::cin.rdstate() & std::ios::failbit) {
 
-				std::cin.clear(); //сброс флагов
+			if (std::cin.rdstate() & std::ios::failbit) {
 
 				if (std::string s; std::cin >> s && s == terminator ) {
 					break;
-				} else {
-					std::cerr << "Ожидалось число или буква 'g'\n"
-						"Можете продолжать ввод\n";
-					std::cin.clear();
-					std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 				}
+				std::cerr << "Ожидалось число или буква 'g'\n"
+					"Можете продолжать ввод\n";
+
+				std::cin.clear(); //сброс флагов
+				//очистка всего потока
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
 			}
 		}
 
@@ -53,12 +54,13 @@ std::vector<int> input_vector(const std::string& terminator)
 
 int main()
 {
+
 	std::vector<int> v;
 
 	try {
 		v = std::move(input_vector("майнкрафт"));
 	}
-	catch (std::ios_base::failure& e) {
+	catch (const std::ios_base::failure& e) {
 		std::cerr << "Здравствуй, жопа, новый год! " << e.what() << "\n";
 		return 1;
 	}
