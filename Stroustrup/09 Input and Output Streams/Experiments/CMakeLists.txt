@@ -22,3 +22,6 @@ add_executable(${PROJECT_NAME} format.cpp)
 
 project(sstream)
 add_executable(${PROJECT_NAME} sstream.cpp)
+
+project(utf-8_rofls)
+add_executable(${PROJECT_NAME} utf-8_rofls.cpp)
