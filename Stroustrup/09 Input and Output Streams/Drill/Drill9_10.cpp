@@ -2,6 +2,14 @@
 // Created by consent_ on 05-Apr-25.
 //
 
+/*
+ * На вход принимается четыре строковых вектора
+ * При определении объекта вектора заносятся в двухмерный массив
+ * Также в конструкторе идет проверка на совпадение размеров векторов,
+ * а также добавляется в начало будущий заголовок столбца
+ *
+ */
+
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -22,9 +30,7 @@ class Data_table
 	{
 		size_t length{0};
 		for (size_t i = 0; i < s.length();) {
-			unsigned char c = s.at(i);
-
-			if (c < 0x80) {
+			if (const unsigned char c = s.at(i); c < 0x80) {
 				i += 1;
 			} else if (( c & 0xE0) == 0xC0 ) {
 				i += 2;
@@ -49,38 +55,85 @@ class Data_table
 		return strlen(*result);
 	}
 
-	auto column_max_width() -> std::vector<size_t>
+	auto column_widths() -> std::vector<size_t>
 	{
-		std::vector<size_t> v_max_str_len;
-		v_max_str_len.reserve(data.size());
-
 		std::vector<size_t> v_column_width;
-
-		for (const auto& v : data) {
-			v_max_str_len.push_back( max_str_len(v) );
-		}
-
-		for (size_t i = 0; i < 4; i++) {
-			size_t collumn_width = (v_max_str_len.at(i) > strlen(title.at(i))) ? v_max_str_len.at(i) : strlen(title.at(i));
-			v_column_width.push_back( collumn_width );
+		for (const auto& str_vec : data) {
+			v_column_width.push_back(max_str_len(str_vec) + 2);
 		}
 		return v_column_width;
 	}
 
-	std::string cell_format(const std::string& str, const size_t& column_width)
+	static std::string cell_format(const std::string& str, const size_t& column_width)
 	{
+		//костыль(
+		int width_correction{-1};
+		if ( unsigned char c = str.at(0); (c & 0xE0) == 0xC0 )
+				width_correction += strlen(str);
+
 		std::stringstream ss;
-		ss << std::setfill('0') << std::setw(column_width) << std::left << str;
+		ss << "│ " << std::setfill(' ') << std::setw(column_width + width_correction) << std::left << str;
 		return ss.str();
 	}
 
-	std::string frame_format(const std::string& str, const size_t& column_width)
+	std::string row_output(const std::vector<std::string>& v_str_row, const std::vector<size_t>& v_column_widths)
 	{
+		std::stringstream ss;
+
+		for (auto i = 0; i < v_str_row.size(); i++) {
+			ss << cell_format(v_str_row.at(i), v_column_widths.at(i));
+		}
+
+		ss << "│";
+
+		return ss.str();
+	}
+
+	static std::string set_row(const size_t& column_width)
+	{
+		constexpr std::string row{"─"};
 		std::string result;
 		for (auto i = 0; i < column_width; i++) {
-			result += str;
+			result += row;
 		}
 		return result;
+	}
+
+	std::string frame__output(const std::vector<std::string>& v_frame, const std::vector<size_t>& v_column_widths )
+	{
+		std::stringstream ss;
+		ss << v_frame.at(0);
+
+		int type{1};
+
+		for (auto i = 0; i < v_column_widths.size(); i++) {
+			if (i == v_column_widths.size() - 1)
+				type++;
+
+			ss << set_row(v_column_widths.at(i)) << v_frame.at(type);
+		}
+
+
+		return ss.str();
+	}
+
+	//====================Вспомогательные функции конструктора==========================
+	bool is_vectors_size_same() const
+	{
+		const auto size = data.at(0).size();
+		for (auto i = 1; i < 4; i++) {
+			if (data.at(i).size() != size) return false;
+		}
+		return true;
+	}
+
+	void data_processing()
+	{
+		for (auto i = 0; i < 4; i++) {
+			data.at(i)
+			.insert(data.at(i).begin(), title.at(i))
+			->reserve(data.at(i).size());
+		}
 	}
 
 	public:
@@ -92,26 +145,47 @@ class Data_table
 	)
 	: data{v_first_names, v_last_names, v_phone_numbers, v_emails}
 	{
-		data.at(0).reserve(v_first_names.size());
-		data.at(1).reserve(v_last_names.size());
-		data.at(2).reserve(v_phone_numbers.size());
-		data.at(3).reserve(v_emails.size());
+		if (!is_vectors_size_same()) {
+			throw std::invalid_argument("Размеры векторов не совпадают");
+		}
+		data_processing();
 	}
 
-
+	//====================ГНИДА=================================
 	void print_table()
 	{
-		constexpr std::string col{"│"}, row{"─"};
+		constexpr std::string col{"│"};
 		constexpr std::string cornerLU{"┌"}, cornerRU{"┐"},
 							  cornerLD{"└"}, cornerRD{"┘"};
 		//InterSection Column Right
 		constexpr std::string isColR{"├"}, isColL{"┤"},
 							  isRowD{"┬"}, isRowU{"┴"}, isMid{"┼"};
 
-		std::vector<size_t> column_width{column_max_width()};
-		std::cout << cornerLU <<frame_format( row, column_width.at(0)+2)
-				  << isRowD << f
+		const std::vector title_upper_frame{cornerLU,   isRowD, cornerRU};
+		const std::vector title_down_frame{isColR,  isMid, isColL};
+		const std::vector table_end{cornerLD, isRowU,  cornerRD};
 
+		const std::vector v_column_width{std::move(column_widths())};
+
+
+
+		for (auto i = 0 ; i < data.at(0).size() ; i++) {
+
+			std::vector<std::string> v_row;
+
+			for (auto j = 0 ; j < data.size() ; j ++) {
+				v_row.push_back(data.at(j).at(i));
+			}
+
+			if (i == 0) {
+				std::cout << frame__output(title_upper_frame, v_column_width) << '\n'
+						  << row_output(v_row, v_column_width) << '\n'
+						  << frame__output(title_down_frame, v_column_width) << '\n';
+			} else {
+				std::cout << row_output(v_row, v_column_width) << '\n';
+			}
+		}
+		std::cout << frame__output(table_end, v_column_width) << std::endl;
 	}
 };
 
@@ -142,11 +216,5 @@ int main()
 		v_first_names, v_last_names, v_numbers, v_emails
 	};
 
-
-
 	dt.print_table();
-
-
-
-
 }
