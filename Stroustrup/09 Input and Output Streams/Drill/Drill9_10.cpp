@@ -74,8 +74,7 @@ int main()
 		v_emails
 	};
 
-	 auto result = std::max_element(v_first_names.begin(), v_first_names.end(), [ ] (const std::string& first, const std::string &second) { return first.size() < second.size(); }
-		);
+	 auto result = std::max_element(v_first_names.begin(), v_first_names.end(), [ ] (const std::string& first, const std::string &second) { return first.size() < second.size(); });
 
 	std::cout <<  *result <<" "<<result->size() << "\n";
 }
