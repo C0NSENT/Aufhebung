@@ -12,9 +12,9 @@
 
 #include <iostream>
 #include <sstream>
+#include <iomanip>
 #include <string>
 #include <vector>
-#include <iomanip>
 #include <array>
 
 
@@ -76,7 +76,7 @@ class Data_table
 		return ss.str();
 	}
 
-	std::string row_output(const std::vector<std::string>& v_str_row, const std::vector<size_t>& v_column_widths)
+	std::string output_row(const std::vector<std::string>& v_str_row, const std::vector<size_t>& v_column_widths)
 	{
 		std::stringstream ss;
 
@@ -99,7 +99,7 @@ class Data_table
 		return result;
 	}
 
-	std::string frame__output(const std::vector<std::string>& v_frame, const std::vector<size_t>& v_column_widths )
+	std::string output_frame(const std::vector<std::string>& v_frame, const std::vector<size_t>& v_column_widths )
 	{
 		std::stringstream ss;
 		ss << v_frame.at(0);
@@ -168,7 +168,6 @@ class Data_table
 		const std::vector v_column_width{std::move(column_widths())};
 
 
-
 		for (auto i = 0 ; i < data.at(0).size() ; i++) {
 
 			std::vector<std::string> v_row;
@@ -178,14 +177,14 @@ class Data_table
 			}
 
 			if (i == 0) {
-				std::cout << frame__output(title_upper_frame, v_column_width) << '\n'
-						  << row_output(v_row, v_column_width) << '\n'
-						  << frame__output(title_down_frame, v_column_width) << '\n';
+				std::cout << output_frame(title_upper_frame, v_column_width) << '\n'
+						  << output_row(v_row, v_column_width) << '\n'
+						  << output_frame(title_down_frame, v_column_width) << '\n';
 			} else {
-				std::cout << row_output(v_row, v_column_width) << '\n';
+				std::cout << output_row(v_row, v_column_width) << '\n';
 			}
 		}
-		std::cout << frame__output(table_end, v_column_width) << std::endl;
+		std::cout << output_frame(table_end, v_column_width) << std::endl;
 	}
 };
 
