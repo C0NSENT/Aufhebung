@@ -6,8 +6,8 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="26" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -20,11 +20,10 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="cases_difference" targetName="cases_difference" />
-      <config projectName="cases_difference" targetName="stream_states" />
-      <config projectName="cases_difference" targetName="number_system" />
-      <config projectName="cases_difference" targetName="ignore_function" />
-      <config projectName="cases_difference" targetName="fstream" />
+      <config projectName="Drill9_10_2" targetName="Drill9_9" />
+      <config projectName="Drill9_10_2" targetName="Drill9_10" />
+      <config projectName="Drill9_10_2" targetName="drill9_1" />
+      <config projectName="Drill9_10_2" targetName="Drill9_10_2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,15 +33,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22865941-648b-4883-8339-2a20ce77e5dd" name="Changes" comment="Обновление файлов">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/cases_difference.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/ignore_function.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/number_system.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/Drill9_10_2/table_output.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/Drill9_10_2/table_output.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/architecture styles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/txt/architecture styles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/stream_states.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/stream_states.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/Drill9_10.2/table_output.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +49,17 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="52835" />
+    <option name="naggedAbout" value="1" />
+    <option name="gitTimePattern" value="{{lh &quot;hr&quot;s}} {{lm &quot;min&quot;}}" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CMakeLists.txt" />
         <option value="Python Script" />
+        <option value="CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -90,6 +92,19 @@
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/exercise_09/src/library.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/library_v1/headers/book_v1.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/08 Technicalities Classes and etc/Exercises/library_v1/src/book_v1.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/Drill9_10.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/Drill9_10_2/table_output.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/Drill9_10_2/table_output.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/drill9_9.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill/test_output.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/cases_difference.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/format.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/fstream.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/ignore_function.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/number_system.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/sstream.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/stream_states.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments/utf-8_rofls.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stroustrup/10 A Display Model/Examples/example_10.3.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
@@ -110,42 +125,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.Archiver.executor": "Run",
-    "CMake Application.Programming_Qt.executor": "Run",
-    "CMake Application.cases_difference.executor": "Run",
-    "CMake Application.exercise_03.executor": "Run",
-    "CMake Application.exercise_05.executor": "Run",
-    "CMake Application.exercise_08.executor": "Run",
-    "CMake Application.exercise_7_58.executor": "Run",
-    "CMake Application.fstream.executor": "Run",
-    "CMake Application.ignore_function.executor": "Run",
-    "CMake Application.library.executor": "Run",
-    "CMake Application.number_system.executor": "Run",
-    "CMake Application.static_class.executor": "Run",
-    "CMake Application.stream_states.executor": "Run",
-    "CMake Application.test_1.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/exercise_09/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.Archiver.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.Drill9_10.2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.Drill9_10.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.Drill9_9.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.Programming_Qt.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.cases_difference.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.drill.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_03.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_05.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_08.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise_7_58.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.format.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.fstream.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ignore_function.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.library.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.number_system.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.sstream.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.static_class.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.stream_states.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.test_1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.utf-8_rofls.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Open this folder only if you are listening Skinny Puppy rn/C++/Aufhebung/08 Technicalities Classes and etc/Exercises/exercise_09/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;indent.rainbow.settings.IrConfigurableAdvanced&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_09\src" />
@@ -153,50 +175,45 @@
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\library_v1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Stroustrup\09 Input and Output Streams\Drill\Drill 9_10.2" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Stroustrup\09 Input and Output Streams\Experiments\txt" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Mini Projects\Archiver\cmake-build-debug" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Mini Projects\Archiver\cmake-build-debug\Testing" />
       <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\Stroustrup" />
-      <recent name="D:\Open this folder only if you are listening Skinny Puppy rn\C++\Aufhebung\08 Technicalities Classes and etc\Exercises\exercise_09\headers" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.fstream">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cases_difference" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cases_difference" TARGET_NAME="cases_difference" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cases_difference" RUN_TARGET_NAME="cases_difference">
+  <component name="RunManager" selected="CMake Application.Drill9_10">
+    <configuration name="Drill9_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Drill9_10_2" TARGET_NAME="Drill9_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Drill9_10_2" RUN_TARGET_NAME="Drill9_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fstream" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cases_difference" TARGET_NAME="fstream" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cases_difference" RUN_TARGET_NAME="fstream">
+    <configuration name="Drill9_10_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Drill9_10_2" TARGET_NAME="Drill9_10_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Drill9_10_2" RUN_TARGET_NAME="Drill9_10_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ignore_function" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cases_difference" TARGET_NAME="ignore_function" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cases_difference" RUN_TARGET_NAME="ignore_function">
+    <configuration name="Drill9_9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Drill9_10_2" TARGET_NAME="Drill9_9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Drill9_10_2" RUN_TARGET_NAME="Drill9_9">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="number_system" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cases_difference" TARGET_NAME="number_system" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cases_difference" RUN_TARGET_NAME="number_system">
+    <configuration name="drill9_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Drill9_10_2" TARGET_NAME="drill9_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Drill9_10_2" RUN_TARGET_NAME="drill9_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stream_states" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cases_difference" TARGET_NAME="stream_states" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cases_difference" RUN_TARGET_NAME="stream_states">
+    <configuration name="fstream" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Experiments" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Drill9_10_2" TARGET_NAME="fstream" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Drill9_10_2" RUN_TARGET_NAME="fstream">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.cases_difference" />
+      <item itemvalue="CMake Application.Drill9_10_2" />
+      <item itemvalue="CMake Application.Drill9_10" />
+      <item itemvalue="CMake Application.Drill9_9" />
+      <item itemvalue="CMake Application.drill9_1" />
       <item itemvalue="CMake Application.fstream" />
-      <item itemvalue="CMake Application.ignore_function" />
-      <item itemvalue="CMake Application.number_system" />
-      <item itemvalue="CMake Application.stream_states" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -247,7 +264,25 @@
       <workItem from="1743753982032" duration="17000" />
       <workItem from="1743754010083" duration="222000" />
       <workItem from="1743754255600" duration="524000" />
-      <workItem from="1743754794766" duration="7007000" />
+      <workItem from="1743754794766" duration="9753000" />
+      <workItem from="1743777186726" duration="3816000" />
+      <workItem from="1743794004832" duration="1268000" />
+      <workItem from="1743795297534" duration="40000" />
+      <workItem from="1743795361350" duration="2642000" />
+      <workItem from="1743801813869" duration="119000" />
+      <workItem from="1743829189803" duration="20724000" />
+      <workItem from="1743870947351" duration="1036000" />
+      <workItem from="1743874653384" duration="2004000" />
+      <workItem from="1743881897754" duration="50000" />
+      <workItem from="1743914196167" duration="170000" />
+      <workItem from="1743917618170" duration="9464000" />
+      <workItem from="1743939562862" duration="4233000" />
+      <workItem from="1743943840146" duration="768000" />
+      <workItem from="1743953367678" duration="14559000" />
+      <workItem from="1743975003089" duration="4462000" />
+      <workItem from="1744010052582" duration="7287000" />
+      <workItem from="1744024463535" duration="3258000" />
+      <workItem from="1744029325312" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление файлов">
       <option name="closed" value="true" />
@@ -393,7 +428,79 @@
       <option name="project" value="LOCAL" />
       <updated>1743704466544</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743776993565</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1743776993565</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743784352138</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1743784352138</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743797996801</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1743797996801</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743880046246</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1743880046246</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743880056739</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1743880056739</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743923173295</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1743923173295</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743953454340</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1743953454340</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743970826570</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1743970826570</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Обновление файлов">
+      <option name="closed" value="true" />
+      <created>1743979478956</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1743979478956</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +510,17 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Исправил ошибку, из-за которой поток уходил в бесконечный цикл" />
