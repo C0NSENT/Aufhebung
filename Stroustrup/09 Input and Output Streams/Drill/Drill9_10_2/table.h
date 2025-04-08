@@ -2,8 +2,8 @@
 // Created by consent_ on 07-Apr-25.
 //
 
-#ifndef TABLE_OUTPUT_H
-#define TABLE_OUTPUT_H
+#ifndef TABLE_H
+#define TABLE_H
 
 #include <iostream>
 #include <sstream>
@@ -14,7 +14,7 @@
 // Можно забить болт setw() и выводить напрямую длину
 // std::string((column_width- strlen(s)), '');
 
-class Table_output
+class Table
 {
 
 	struct /*splinter*/ cell
@@ -84,7 +84,7 @@ public:
 	//	PUBLIC
 	//*****************************************************************
 
-	explicit Table_output(const std::vector<std::vector<std::string>>& v_table_data);
+	explicit Table(const std::vector<std::vector<std::string>>& v_table_data);
 
 	//по приколу
 	void add_titles(const std::vector<std::string>& v_titles);
@@ -93,11 +93,11 @@ public:
 
 	auto get_data() const  -> std::vector<std::vector<std::string>>;
 	std::vector<std::string> get_row(size_t pos) const;
-	std::string get_cell(size_t row_pos, size_t col_pos) const;
+	std::string get_cell(size_t x_pos, size_t y_pos) const;
 
 	//===========================операторы=====================================
 
-	friend std::ostream& operator<<(std::ostream& os, const Table_output& obj);
+	friend std::ostream& operator<<(std::ostream& os, const Table& obj);
 };
 
-#endif //TABLE_OUTPUT_H
+#endif //TABLE_H

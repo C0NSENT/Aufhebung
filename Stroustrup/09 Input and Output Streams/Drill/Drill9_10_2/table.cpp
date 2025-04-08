@@ -2,12 +2,12 @@
 // Created by consent_ on 07-Apr-25.
 //
 
-#include "table_output.h"
+#include "table.h"
 
 #include <iomanip>
 #include <stdexcept>
 
-Table_output::cell::cell(const std::string& cell_content)
+Table::cell::cell(const std::string& cell_content)
 	: content(cell_content)
 {
 	length = strlen(content);
@@ -17,7 +17,7 @@ Table_output::cell::cell(const std::string& cell_content)
 //	ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
 //*****************************************************************
 
-std::array<std::string, 3> Table_output::frame::get_borders(const pos p)
+std::array<std::string, 3> Table::frame::get_borders(const pos p)
 {
 	switch (p) {
 		case title:
@@ -31,7 +31,7 @@ std::array<std::string, 3> Table_output::frame::get_borders(const pos p)
 	}
 }
 
-size_t Table_output::strlen(const std::string &s)
+size_t Table::strlen(const std::string &s)
 {
 	size_t length{0};
 	for (size_t i = 0; i < s.length();) {
@@ -51,14 +51,14 @@ size_t Table_output::strlen(const std::string &s)
 	return length;
 }
 
-size_t Table_output::max_strlen(const std::vector<size_t> &v)
+size_t Table::max_strlen(const std::vector<size_t> &v)
 {
 	const auto result = std::max_element(v.cbegin(), v.cend());
 
 	return *result;
 }
 
-auto Table_output::get_column_cells_widths(const size_t& col_pos) -> std::vector<size_t>
+auto Table::get_column_cells_widths(const size_t& col_pos) -> std::vector<size_t>
 {
 	std::vector<size_t> column;
 	for (const auto& row : v_table_data_) {
@@ -67,7 +67,7 @@ auto Table_output::get_column_cells_widths(const size_t& col_pos) -> std::vector
 	return column;
 }
 
-void Table_output::print_raw_data()
+void Table::print_raw_data()
 {
 	for (const auto& row : v_table_data_) {
 		for (const auto& cell : row	) {
@@ -80,7 +80,7 @@ void Table_output::print_raw_data()
 
 //===========================форматирование ячейки=====================================
 
-auto Table_output::cell_format(const size_t& y_pos,  const size_t& x_pos) const -> std::stringstream
+auto Table::cell_format(const size_t& y_pos,  const size_t& x_pos) const -> std::stringstream
 {
 	std::stringstream ss;
 
@@ -93,7 +93,7 @@ auto Table_output::cell_format(const size_t& y_pos,  const size_t& x_pos) const 
 	return ss;
 }
 
-auto Table_output::horizontal_table_frame(const frame::pos p) const -> std::stringstream
+auto Table::horizontal_table_frame(const frame::pos p) const -> std::stringstream
 {
 	std::stringstream ss;
 
@@ -112,7 +112,7 @@ auto Table_output::horizontal_table_frame(const frame::pos p) const -> std::stri
 	return ss;
 }
 
-std::string Table_output::fill_frame(const size_t &width)
+std::string Table::fill_frame(const size_t &width)
 {
 	std::string row;
 	for (int x = 0; x < width + 2; x++) {
@@ -124,7 +124,7 @@ std::string Table_output::fill_frame(const size_t &width)
 //===========================функции конструктора=====================================
 
 
-bool Table_output::is_rows_length_same() const
+bool Table::is_rows_length_same() const
 {
 	for (const auto& row : v_table_data_) {
 		if (row.size() != table_width) {
@@ -139,7 +139,7 @@ bool Table_output::is_rows_length_same() const
 //	PUBLIC
 //*****************************************************************
 
-Table_output::Table_output(const std::vector<std::vector<std::string>> &v_table_data)
+Table::Table(const std::vector<std::vector<std::string>> &v_table_data)
 {
 	table_width = v_table_data.at(0).size();
 	table_height = v_table_data.size();
@@ -174,43 +174,43 @@ Table_output::Table_output(const std::vector<std::vector<std::string>> &v_table_
 	}
 }
 
-void Table_output::add_titles(const std::vector<std::string> &v_titles)
+void Table::add_titles(const std::vector<std::string> &v_titles)
 {
 
 }
 
 //===========================геттеры=====================================
 
-auto Table_output::get_data() const -> std::vector<std::vector<std::string>>
+auto Table::get_data() const -> std::vector<std::vector<std::string>>
 {
 
 }
 
-std::vector<std::string> Table_output::get_row(size_t pos) const
+std::vector<std::string> Table::get_row(size_t pos) const
 {
 
 }
 
-std::string Table_output::get_cell(size_t row_pos, size_t col_pos) const
+std::string Table::get_cell(size_t x_pos, size_t y_pos) const
 {
-
+	return v_table_data_.at(y_pos).at(x_pos).content;
 }
 
 //===========================операторы=====================================
 
-std::ostream & operator<<(std::ostream &os, const Table_output& obj)
+std::ostream & operator<<(std::ostream &os, const Table& obj)
 {
 	for (int y = 0; y < obj.table_height; y++) {
 		if (y == 0)
-			os << obj.horizontal_table_frame(Table_output::frame::title).str() << '\n';
+			os << obj.horizontal_table_frame(Table::frame::title).str() << '\n';
 		for (int x = 0; x < obj.table_width; x++) {
 			os << obj.cell_format(y, x).str();
 		}
 		os << '\n';
 		if (y == 0)
-			os << obj.horizontal_table_frame(Table_output::frame::mid).str() << '\n';
+			os << obj.horizontal_table_frame(Table::frame::mid).str() << '\n';
 		if (y == obj.table_height-1) {
-			os << obj.horizontal_table_frame(Table_output::frame::end).str() << '\n';
+			os << obj.horizontal_table_frame(Table::frame::end).str() << '\n';
 		}
 
 	}
@@ -221,7 +221,7 @@ std::ostream & operator<<(std::ostream &os, const Table_output& obj)
 int main()
 {
 	try {
-		Table_output obj{
+		Table obj{
 			{
 				{"Имя", "Фамилия", "Номер", "Электронная Почта"},
 				{"Иван", "Иванов", "+79161234567", "ivanov.ivan@mail.ru"},

@@ -35,7 +35,7 @@ std::vector<int> input_vector(const std::string& terminator)
 
 			if (std::cin.rdstate() & std::ios::failbit) {
 
-				if (std::string s; std::cin >> s && s == terminator ) {
+				if ( std::string s; std::cin >> s && s == terminator ) {
 					break;
 				}
 				std::cerr << "Ожидалось число или буква 'g'\n"

@@ -3,7 +3,7 @@
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Drill">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/Stroustrup/09 Input and Output Streams/Exercises">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>
